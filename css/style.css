@@ -1,0 +1,51 @@
+body
+{
+    font-family:'segoe ui light';
+    background-color: rgb(35, 141, 143);;
+    color:#fff ;
+}
+.form-group label
+{
+    font-size: 18px;
+    font-weight: 700;
+}
+input,.form-group textarea
+{
+    background-color: rgb(35, 141, 143) !important;
+    color: #fff !important;
+}
+#addBtn
+{
+    border: 1px solid #fff;
+    color: #fff !important;
+}
+td,th
+{
+    color:#fff;
+}
+th
+{
+    font-size: 18px;;
+}
+input::placeholder
+{
+    color:rgb(214, 210, 210) !important;
+}
+ul span
+{
+    font-size: 18px;
+    font-weight: 800;
+}
+@media(max-width:767px) {
+    .container
+    {
+        min-width: 95%; 
+    }
+    #search
+    {
+        width: 78% !important;
+        margin-top: 25px !important;
+    }
+}
+
+
